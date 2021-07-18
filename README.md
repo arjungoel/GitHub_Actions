@@ -1,3 +1,9 @@
+A `webhook` is something that will call your application when something on GitHub happens.
+
+![Image of GitHub Webook](https://github.com/arjungoel/GitHub_Actions/blob/feature/images/github_webhook.PNG)
+
+
+
 **GitHub Apps**:
 
 - You can integrate your custom applications with GitHub by listening to `webhooks` on events.
