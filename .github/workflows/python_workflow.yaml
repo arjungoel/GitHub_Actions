@@ -39,8 +39,8 @@ jobs:
           
       - name: commit files
         run: |
-          git config --local user.email "arjungoel1995@gmail.com"
-          git config --local user.name "Arjun Goel"
+          git config --global user.email "arjungoel1995@gmail.com"
+          git config --global user.name "Arjun Goel"
           git add -A
           git commit -m "update data" -a
           
