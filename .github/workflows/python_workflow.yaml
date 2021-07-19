@@ -9,7 +9,7 @@ on:
   pull_request_review_comment:
     branches: [ master, feature ]
   schedule:
-    - cron: '0 12 * * *' # runs at 12:00 UTC everyday
+    - cron: '1 * * * *' # runs after every 1 minute
 
 # We can specify a number of jobs. Each job runs on a VM
 jobs:
